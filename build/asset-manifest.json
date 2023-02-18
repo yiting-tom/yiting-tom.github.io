@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8ea0c9f4.chunk.css",
+    "main.js": "/static/js/main.a0a45423.chunk.js",
+    "main.js.map": "/static/js/main.a0a45423.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6d191c48.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6d191c48.js.map",
+    "static/css/2.8b4cbbf9.chunk.css": "/static/css/2.8b4cbbf9.chunk.css",
+    "static/js/2.8547d7ec.chunk.js": "/static/js/2.8547d7ec.chunk.js",
+    "static/js/2.8547d7ec.chunk.js.map": "/static/js/2.8547d7ec.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.8b4cbbf9.chunk.css.map": "/static/css/2.8b4cbbf9.chunk.css.map",
+    "static/css/main.8ea0c9f4.chunk.css.map": "/static/css/main.8ea0c9f4.chunk.css.map",
+    "static/js/2.8547d7ec.chunk.js.LICENSE.txt": "/static/js/2.8547d7ec.chunk.js.LICENSE.txt",
+    "static/media/b1.jpg": "/static/media/b1.ab4eb55c.jpg",
+    "static/media/b3.avif": "/static/media/b3.aa36b0a0.avif",
+    "static/media/b_f.png": "/static/media/b_f.1cb3666e.png",
+    "static/media/clouds.png": "/static/media/clouds.3c700c13.png",
+    "static/media/d_cs.png": "/static/media/d_cs.4b608dd4.png",
+    "static/media/daniel-olahh.jpg": "/static/media/daniel-olahh.77c0ffac.jpg",
+    "static/media/fabio-mangione.jpg": "/static/media/fabio-mangione.488bc249.jpg",
+    "static/media/iceberg.png": "/static/media/iceberg.cc6b5075.png",
+    "static/media/login-image.jpg": "/static/media/login-image.21e8ba3f.jpg",
+    "static/media/marketing-cms.gif": "/static/media/marketing-cms.8fded7bb.gif",
+    "static/media/ml-research.png": "/static/media/ml-research.c0d7d530.png",
+    "static/media/ms_cs.png": "/static/media/ms_cs.986899db.png",
+    "static/media/paper-kit.scss?v=1.3.0": "/static/media/nucleo-icons.ec16bc4c.woff2",
+    "static/media/pea-sys.gif": "/static/media/pea-sys.1c9da664.gif",
+    "static/media/rec_cli.gif": "/static/media/rec_cli.925b1695.gif",
+    "static/media/test.f2910b9c.md": "/static/media/test.f2910b9c.md",
+    "static/media/web-dev.png": "/static/media/web-dev.05133174.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d191c48.js",
+    "static/css/2.8b4cbbf9.chunk.css",
+    "static/js/2.8547d7ec.chunk.js",
+    "static/css/main.8ea0c9f4.chunk.css",
+    "static/js/main.a0a45423.chunk.js"
+  ]
+}
