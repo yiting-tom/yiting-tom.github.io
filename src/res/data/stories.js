@@ -1,30 +1,83 @@
 export const stories = [
     {
-      src: require("assets/img/b1.jpg").default,
-      altText: "Life in NCKU",
-      caption: "Life in NCKU",
+      src: require("assets/img/stories/google-project.png").default,
+      altText: "User Sentiment Monitoring System for Google Pixel Phones",
+      caption: <div style={{padding: "0px 10px 10px"}}>
+        <h4 style={{padding: "10px 0px 0px"}}>
+          User Sentiment Monitoring System for Google Pixel Phones
+        </h4>
+        I participated in the Google project and worked on the User Sentiment Monitoring System for Google Pixel Phones.
+        Responsible for leading a team to build the system and design the system architecture.
+        We used the Google Cloud Platform to build the system and used Terraform to manage the infrastructure.
+      </div>
     },
     {
-      src: require("assets/img/demo/pea-sys.gif").default,
-      altText: "PEA System",
-      caption: "The Project Evolution System project is an analysis tool that we have constructed for government departments in Taiwan. We use advanced NLP techniques to cluster and statistics the plans under the departments, thereby allowing analysts to better understand the changes in the plans.",
+      src: require("assets/img/stories/google-project-demo.jpg").default,
+      altText: "User Sentiment Monitoring System for Google Pixel Phones",
+      caption: <div style={{padding: "0px 10px 10px"}}>
+        <h4 style={{padding: "10px 0px 0px"}}>
+          User Sentiment Monitoring System for Google Pixel Phones - demo version
+        </h4>
+        I participated in the Google project and worked on the User Sentiment Monitoring System for Google Pixel Phones.
+        Responsible for leading a team to build the system and design the system architecture.
+        We used the Google Cloud Platform to build the system and used Terraform to manage the infrastructure.
+      </div>
     },
     {
-      src: require("assets/img/demo/marketing-cms.gif").default,
-      altText: "Marketing CMS",
-      caption: "This is the MVP product that I made with my startup partners. We adopted the popular serverless technology in recent years, which can minimize the cost of building high-traffic websites to the greatest extent. The technologies used are: Go with DDD design pattern, React deployed on a cloud bucket, and GCP Cloud run (the slower loading is due to the cold-start of serverless).",
+      src: require("assets/img/stories/careerhack.png").default,
+      altText: "Baseline Bot - Careerhack in 2023 TSMC IT x Google",
+      caption: <div style={{padding: "0px 10px 10px"}}>
+        <h4 style={{padding: "10px 0px 0px"}}>
+          Baseline Bot - Careerhack in 2023 TSMC IT x Google
+        </h4>
+        We create a small team helper on Discord and I was responsible for the backend development and system design.
+        I used the NGINX for the load balancing and API gateway, used the Directus for the backend server to connect the Postgres database and used Redis as the cache.
+      </div>
     },
     {
-      src: require("assets/img/demo/rec_cli.gif").default,
-      altText: "A recommendation system tool that I am developing, which allows users to choose advanced deep learning algorithms on their own, simply by using the cli to specify the dataset and parameters, they can carry out training and prediction. In addition, we have introduced Ray as an AutoML hyperparameter tuning tool, thus reducing the hassle of using different datasets for the user.",
-      caption: "A recommendation system tool that I am developing, which allows users to choose advanced deep learning algorithms on their own, simply by using the cli to specify the dataset and parameters, they can carry out training and prediction. In addition, we have introduced Ray as an AutoML hyperparameter tuning tool, thus reducing the hassle of using different datasets for the user.",
+      src: require("assets/img/stories/chemical-cloud.png").default,
+      altText: "Chemical Cloud",
+      caption: <div style={{padding: "0px 10px 10px"}}>
+        <h4 style={{padding: "10px 0px 0px"}}>
+          Chemical Cloud - demo version
+        </h4>
+        Chemical Cloud is a platform for Toxic and Chemical Substances Bureau, EPA, Executive Yuan, R.O.C.
+         to monitor the sentiment about the chemical substances of social media and news. 
+      </div>
     },
     {
-      src: require("assets/img/demo/iceberg.png").default,
-      altText: "There are still many projects and products in my portofolio, and I look forward to the opportunity to share them with you.",
-      caption: "There are still many projects and products in my portofolio, and I look forward to the opportunity to share them with you.",
-    }
+      src: require("assets/img/stories/human_ai.gif").default,
+      altText: "Artificial Intelligence Practice Project - Connect 4 Game",
+      caption: <div style={{padding: "0px 10px 10px"}}>
+        <h4 style={{padding: "10px 0px 0px"}}>
+          Artificial Intelligence Practice Project - Connect 4 Game
+        </h4>
+        The Project is a part of the Artificial Intelligence Practice when I was a sophomore.
+        I used max-min algorithm to implement the AI player. So we can control the difficulty of the game by changing the depth of the search tree, so if you beat the AI, the AI will be smarter.
+        In this project, I also implemented the alpha-beta pruning algorithm to improve the efficiency of the search tree with multi-processing.
+      </div>
+    },
+    {
+      src: require("assets/img/stories/purple.jpg").default,
+      altText: "guitar",
+      caption: <div style={{padding: "0px 10px 10px"}}>
+        <h4 style={{padding: "10px 0px 0px"}}>
+          Study at NCKU
+        </h4>
+        I studied at NCKU and I am undertaking a master's degree in CS.
+      </div>
+    },
+    {
+      src: require("assets/img/stories/guitar.png").default,
+      altText: "guitar",
+      caption: <div style={{padding: "0px 10px 10px"}}>
+        <h4 style={{padding: "10px 0px 0px"}}>
+          A music lover
+        </h4>
+        I'm also a music lover; I play the guitar and the cello.
+      </div>
+    },
+]
     
-];
 
 export default stories;
