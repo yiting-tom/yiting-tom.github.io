@@ -12,7 +12,8 @@ function IndexHeader() {
         className="page-header"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/background/wallpaper.png").default + ")",
+            "url(" + require("assets/img/background/wallpaper-2.png").default + ")",
+          boxShadow: "0 0 1000px 0 #0b1011",
         }}
       >
         <div className="filter" />
@@ -41,7 +42,7 @@ function IndexHeader() {
                       typewriter.typeString('NLP | CV | Cross-Modal ML | Data Analysis | RecSys')
                       .pauseFor(1500)
                       .deleteAll()
-                      .typeString('Great to meet you!')
+                      .typeString('It’s great connecting with you!')
                       .start();
                     }, 5000);
                     
