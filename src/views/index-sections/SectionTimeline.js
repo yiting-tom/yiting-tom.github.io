@@ -152,6 +152,24 @@ function SectionTimeline() {
                             </p>
                     </VerticalTimelineElement>
 
+                    {/* Graduate */}
+                    <VerticalTimelineElement                        
+                        contentStyle={contentStyle}                    
+                        date="Sep 2021 to Present"
+                        iconStyle={{ background: '#0b1011', color: '#ff7f7f' }}
+                        icon={<TbSchool/>}
+                    >
+                        <a
+                            style={{color: '#ff7f7f'}}
+                            href="https://www.ncku.edu.tw/index.php?Lang=en"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <h3 className="vertical-timeline-element-title">Starting my graduate journey</h3>
+                            <h4 className="vertical-timeline-element-subtitle">Computer Science, National Cheng Kung University, Taiwan</h4>
+                        </a>
+                    </VerticalTimelineElement>
+
                     {/* Paper */}
                     <VerticalTimelineElement                        
                         contentStyle={contentStyle}                    
@@ -171,24 +189,6 @@ function SectionTimeline() {
                             <p>
                             In-vehicle networks are becoming increasingly important for driving safety and convenience, and clustering can enhance the communication quality of these networks. However, direct communication between vehicles and infrastructure can cause interference and redundant information. By integrating adjacent vehicles' driving information, the communication quality can be improved while reducing redundancy. This study proposes a hierarchical clustering structure that predicts the connection survival time based on vehicle relationships, providing a quantitative index for predicting the connection quality when clustering between vehicles. Experiments show that this algorithm outperforms other algorithms in the connection between vehicles and infrastructure, as well as in the effect of clustering between vehicles. This paper highlights the crucial importance of how vehicles form a cluster and how to select a cluster leader to optimize the efficiency of the cluster.
                             </p>
-                    </VerticalTimelineElement>
-
-                    {/* Graduate */}
-                    <VerticalTimelineElement                        
-                        contentStyle={contentStyle}                    
-                        date="Sep 2018 to Sep 2021"
-                        iconStyle={{ background: '#0b1011', color: '#ff7f7f' }}
-                        icon={<TbSchool/>}
-                    >
-                        <a
-                            style={{color: '#ff7f7f'}}
-                            href="https://www.ncku.edu.tw/index.php?Lang=en"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <h3 className="vertical-timeline-element-title">Starting my graduate journey</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Computer Science, National Cheng Kung University, Taiwan</h4>
-                        </a>
                     </VerticalTimelineElement>
 
                     {/* JUNE 1 */}
@@ -220,7 +220,7 @@ function SectionTimeline() {
                         </p>
                     </VerticalTimelineElement>
 
-                    {/* NCKU */}
+                    {/* Network Manager */}
                     <VerticalTimelineElement                        
                         contentStyle={contentStyle}                    
                         date="Sep 2019 to Sep 2021"
@@ -247,7 +247,7 @@ function SectionTimeline() {
                     {/* Google */}
                     <VerticalTimelineElement                        
                         contentStyle={contentStyle}                    
-                        date="Jul 2019 to Sep 2019"
+                        date="Jun 2019 to Sep 2019"
                         iconStyle={{ background: '#0b1011', color: 'lightblue' }}
                         icon={<MdWorkOutline/>}
                     >
