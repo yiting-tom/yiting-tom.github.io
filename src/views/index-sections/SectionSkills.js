@@ -16,10 +16,10 @@ function SectionSkills() {
           <h2 className="title">Skills</h2>
           <Row>
             <Col>
-              <h3 >Web Developer</h3>
+              <h3>Software Engineering</h3>
             </Col>
             <Col>
-              <h3 >ML Research</h3>
+              <h3>ML Research</h3>
             </Col>
           </Row>
           <Row style={{alignItems: 'center',}}>
@@ -32,7 +32,7 @@ function SectionSkills() {
                     alt="..."
                     style={{width: '21vw'}}
                     src={
-                      require("assets/img/web-dev.png").default
+                      require("assets/img/skills/software-engineering.png").default
                     }
                   />
                 </Zoom>
@@ -48,7 +48,7 @@ function SectionSkills() {
                     style={{width: '21vw'}}
                     alt="..."                  
                     src={
-                      require("assets/img/ml-research.png").default
+                      require("assets/img/skills/research.png").default
                     }
                   />
                 </Zoom>                                

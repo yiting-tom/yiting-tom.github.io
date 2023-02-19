@@ -68,8 +68,6 @@ function SectionCarousel() {
                       >
                         <img src={item.src} alt={item.altText} />
                         <CarouselCaption
-                          // className="text-warning bg-dark"
-                          
                           captionText={item.caption}
                           captionHeader=""
                         />
