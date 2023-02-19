@@ -22,7 +22,7 @@ export const experiences = [
       desp: "I'm currently pursuing a master's degree in CS "+
       "with a focus on NLP and explainablilty of Cross-modal Visual Language models. "+
       "Now I'm working on a project that aims to leverage the power of NLP and CV to " +
-      "build a monitor for the Google Pixel Phones testing and marketing team to trace user sentiment"
+      "build a monitor for the Google Pixel Phones testing and marketing team to trace user sentimen.t"
     },
 ];
 
