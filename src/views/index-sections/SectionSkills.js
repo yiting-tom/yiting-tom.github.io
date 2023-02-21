@@ -22,7 +22,7 @@ function SectionSkills() {
               <h3 style={{color: '#aaa', fontWeight: 500}}>ML Research</h3>
             </Col>
           </Row>
-          <Row style={{alignItems: 'center',}}>
+          <Row style={{alignItems: 'center'}}>
               <Col>
                 <Zoom 
                    overlayBgColorEnd="rgba(0, 0, 0, 0.75)"
@@ -30,7 +30,7 @@ function SectionSkills() {
                 >
                   <img
                     alt="..."
-                    style={{width: '21vw'}}
+                    style={{width: '100%'}}
                     src={
                       require("assets/img/skills/software-engineering.png").default
                     }
@@ -44,7 +44,7 @@ function SectionSkills() {
                   overlayBgColorStart="rgba(0, 0, 0, 0)"
                   >
                   <img
-                    style={{width: '21vw'}}
+                    style={{width: '100%'}}
                     alt="..."                  
                     src={
                       require("assets/img/skills/research.png").default
@@ -52,13 +52,20 @@ function SectionSkills() {
                   />
                 </Zoom>                                
               </Col>
+          </Row>
+            <br/>
+            <br/>
+            <Row>
+          <h2 className="title">My solution finding algorithm</h2>
+            </Row>
+            <Row>
               <Col >
                 <Zoom
                   overlayBgColorEnd="rgba(0, 0, 0, 0.75)"
                   overlayBgColorStart="rgba(0, 0, 0, 0)"
                   >
                   <img
-                    style={{width: '21vw'}}
+                    style={{width: '100%'}}
                     alt="..."                  
                     src={
                       require("assets/img/skills/solution.png").default
@@ -66,9 +73,9 @@ function SectionSkills() {
                   />
                 </Zoom>                                
               </Col>
-          </Row>
+            </Row>
         </Container>
-      </div>{" "}
+      </div>
     </>
   );
 }

@@ -45,29 +45,32 @@ export const stories = [
          to monitor the sentiment about the chemical substances of social media and news. 
       </div>
     },
-  //   {
-  //     src: require("assets/img/stories/solution.png").default,
-  //     altText: "My solution finding algorithm",
-  //     caption: <div style={{padding: "0px 10px 10px"}}>
-  //       <h4 style={{padding: "10px 0px 0px"}}>
-  //           My solution finding algorithm
-  //       </h4>
-  //       Thomas Sowell said: "There are no perfect solution, only trade offs", so I always follow this process to find the "local optimum".
-	// Discussing with others is the only way to it, so the spike report is the best bridge to transport the information which in my head.
-  //     </div>
-  //   },
     {
-      src: require("assets/img/stories/human_ai.gif").default,
-      altText: "Artificial Intelligence Practice Project - Connect 4 Game",
+      src: require("assets/img/stories/CMS.gif").default,
+      altText: "CMS",
       caption: <div style={{padding: "0px 10px 10px"}}>
         <h4 style={{padding: "10px 0px 0px"}}>
-          Artificial Intelligence Practice Project - Connect 4 Game
+          The CMS in our product - demo version
         </h4>
-        The Project is a part of the Artificial Intelligence Practice when I was a sophomore.
-        I used max-min algorithm to implement the AI player. So we can control the difficulty of the game by changing the depth of the search tree, so if you beat the AI, the AI will be smarter.
-        In this project, I also implemented the alpha-beta pruning algorithm to improve the efficiency of the search tree with multi-processing.
+        My startup partners and I created an MVP product of CMS using cost-efficient serverless technology to minimize expenses.
+        We used Go with DDD design pattern and deployed React on a cloud bucket.
+        GCP Cloud run was also utilized.
+        Overall, we leveraged popular technologies to develop an MVP product.
       </div>
     },
+    // },
+    // {
+    //   src: require("assets/img/stories/human_ai.gif").default,
+    //   altText: "Artificial Intelligence Practice Project - Connect 4 Game",
+    //   caption: <div style={{padding: "0px 10px 10px"}}>
+    //     <h4 style={{padding: "10px 0px 0px"}}>
+    //       Artificial Intelligence Practice Project - Connect 4 Game
+    //     </h4>
+    //     The Project is a part of the Artificial Intelligence Practice when I was a sophomore.
+    //     I used max-min algorithm to implement the AI player. So we can control the difficulty of the game by changing the depth of the search tree, so if you beat the AI, the AI will be smarter.
+    //     In this project, I also implemented the alpha-beta pruning algorithm to improve the efficiency of the search tree with multi-processing.
+    //   </div>
+    // },
     {
       src: require("assets/img/stories/purple.jpg").default,
       altText: "guitar",
