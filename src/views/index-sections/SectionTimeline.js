@@ -11,6 +11,8 @@ function SectionTimeline() {
         borderRadius: '15px',
         background: 'rgb(255, 255, 255, 0.03)',
         boxShadow: '0 0 10px 0 #0b1011',
+        color: '#ddd',
+        fontSize: '1.2rem',
     }
     return (
         <>        
@@ -187,7 +189,7 @@ function SectionTimeline() {
                             <h4 className="vertical-timeline-element-subtitle">Taiwan Academic Network Conference</h4>
                         </a>
                             <p>
-                            In-vehicle networks are becoming increasingly important for driving safety and convenience, and clustering can enhance the communication quality of these networks. However, direct communication between vehicles and infrastructure can cause interference and redundant information. By integrating adjacent vehicles' driving information, the communication quality can be improved while reducing redundancy. This study proposes a hierarchical clustering structure that predicts the connection survival time based on vehicle relationships, providing a quantitative index for predicting the connection quality when clustering between vehicles. Experiments show that this algorithm outperforms other algorithms in the connection between vehicles and infrastructure, as well as in the effect of clustering between vehicles. This paper highlights the crucial importance of how vehicles form a cluster and how to select a cluster leader to optimize the efficiency of the cluster.
+                            This article proposes using a hierarchical clustering structure to improve in-vehicle network communication by integrating adjacent vehicles' driving information, reducing redundancy and interference. Experiments show that this algorithm outperforms others in connection quality, highlighting the importance of how vehicles form a cluster and how to select a cluster leader for optimal efficiency.
                             </p>
                     </VerticalTimelineElement>
 

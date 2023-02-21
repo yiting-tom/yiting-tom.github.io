@@ -10,17 +10,19 @@ import {
 
 
 function AboutUs(){
-    let p_style = {color:'white', fontSize:'18px'}
-    let p2_style = {fontSize:'16px'}
+    let p_style = {color:'#aaa', fontSize:'22px', fontWeight: 500}
+    let p2_style = {fontSize:'18px', color:'#ccc', fontWeight: 500}
     return (
         <div className="section section-dark text-center">
             <Container>
-            <h2 className="title">About me</h2>
+            <h2 className="title">ABOUT ME</h2>
             <p className="card-description text-center" style={p_style}>
             I'm a 2nd-year CS master's student, studying NLP, CV, cross-modal ML, and recommender systems.
             In additionally, I love to discover new technologies and then leverage them to solve the real-world problems.
-            Also, my friends and I are planing to start a startup company, which driven by AI and data science.
+            Also, my friends and I are planing to start a company, which driven by AI.
             </p>
+            <br/>
+            <br/>
             <h2 className="title">EXPERIENCE</h2>
             <Row>
                 {experiences.map((item)=>{
@@ -36,8 +38,8 @@ function AboutUs(){
                                 <CardBody>
                                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
                                     <div className="author">
-                                    <CardTitle tag="h4">{item.title}</CardTitle>
-                                    <h6 className="card-category">{item.category}</h6>
+                                    <CardTitle tag="h4" style={{fontWeight: 800}}>{item.title}</CardTitle>
+                                    <h4 className="card-category" style={{fontWeight: 500}}>{item.category}</h4>
                                     </div>
                                 </a>
                                 <p className="card-description text-center" style={p2_style}>

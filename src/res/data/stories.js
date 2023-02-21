@@ -30,7 +30,7 @@ export const stories = [
         <h4 style={{padding: "10px 0px 0px"}}>
           Baseline Bot - Careerhack in 2023 TSMC IT x Google
         </h4>
-        We create a small team helper on Discord and I was responsible for the backend development and system design.
+        We create a small team helper on Discord in 12 hours and I was responsible for the backend development and system design.
         I used the NGINX for the load balancing and API gateway, used the Directus for the backend server to connect the Postgres database and used Redis as the cache.
       </div>
     },
@@ -45,17 +45,17 @@ export const stories = [
          to monitor the sentiment about the chemical substances of social media and news. 
       </div>
     },
-    {
-      src: require("assets/img/stories/solution.png").default,
-      altText: "My solution finding algorithm",
-      caption: <div style={{padding: "0px 10px 10px"}}>
-        <h4 style={{padding: "10px 0px 0px"}}>
-            My solution finding algorithm
-        </h4>
-        Thomas Sowell said: "There are no perfect solution, only trade offs", so I always follow this process to find the "local optimum".
-	Discussing with others is the only way to it, so the spike report is the best bridge to transport the information which in my head.
-      </div>
-    },
+  //   {
+  //     src: require("assets/img/stories/solution.png").default,
+  //     altText: "My solution finding algorithm",
+  //     caption: <div style={{padding: "0px 10px 10px"}}>
+  //       <h4 style={{padding: "10px 0px 0px"}}>
+  //           My solution finding algorithm
+  //       </h4>
+  //       Thomas Sowell said: "There are no perfect solution, only trade offs", so I always follow this process to find the "local optimum".
+	// Discussing with others is the only way to it, so the spike report is the best bridge to transport the information which in my head.
+  //     </div>
+  //   },
     {
       src: require("assets/img/stories/human_ai.gif").default,
       altText: "Artificial Intelligence Practice Project - Connect 4 Game",

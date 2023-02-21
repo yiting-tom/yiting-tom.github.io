@@ -11,15 +11,15 @@ import Zoom from 'react-medium-image-zoom'
 function SectionSkills() {
   return (
     <>
-      <div className="section section-dark section-nucleo-icons">
+      <div className="section section-dark section-nucleo-icons" style={{fontWeight: 500}}>
         <Container>
           <h2 className="title">Skills</h2>
           <Row>
             <Col>
-              <h3>Software Engineering</h3>
+              <h3 style={{color: '#aaa', fontWeight: 500}}>Software Engineering</h3>
             </Col>
             <Col>
-              <h3>ML Research</h3>
+              <h3 style={{color: '#aaa', fontWeight: 500}}>ML Research</h3>
             </Col>
           </Row>
           <Row style={{alignItems: 'center',}}>
@@ -36,7 +36,6 @@ function SectionSkills() {
                     }
                   />
                 </Zoom>
-                
                 <br />
               </Col>
               <Col >
@@ -53,18 +52,20 @@ function SectionSkills() {
                   />
                 </Zoom>                                
               </Col>
-              
-              
-            {/* <Col>
-                <Button
-                    className="btn-round"
-                    color="danger"
-                    outline
-                    href=".#/markdown-page"
+              <Col >
+                <Zoom
+                  overlayBgColorEnd="rgba(0, 0, 0, 0.75)"
+                  overlayBgColorStart="rgba(0, 0, 0, 0)"
                   >
-                    Demo Icons
-                  </Button>  
-            </Col> */}
+                  <img
+                    style={{width: '21vw'}}
+                    alt="..."                  
+                    src={
+                      require("assets/img/skills/solution.png").default
+                    }
+                  />
+                </Zoom>                                
+              </Col>
           </Row>
         </Container>
       </div>{" "}
